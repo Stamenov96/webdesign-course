@@ -1,0 +1,39 @@
+.main {
+	background: blue;
+	overflow: hidden;
+}
+
+.content, .sidebar {
+	float: left;
+	color: white;
+}
+
+.content {
+	width: 30%;
+	background: blue;
+}
+
+.sidebar {
+	width: 70%; 
+	background: blue;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid black;
+	border-width: 1px 1px;
+	background: blue;
+}
+
+.header {
+	text-align: center;
+	background:white;
+}
+
+.footer {
+	clear: both;
+	text-align: center;
+	background:white;
+}

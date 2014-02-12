@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 1;
+}
+
+.container {
+	background: Blue;
+	width: 600px;
+	margin: 100px auto;
+	padding: 50px 20px 50px 20px;
+}
+
+ul {
+	height: 50px;
+}
+
+ul li {
+
+	border: 1px solid black;
+	display: block;
+	background: white;
+	margin: 5px 10px 5px 10px;
+
+}
+
+ul li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 5px 10px;
+}
+
+ul > li { 
+	float: left;
+		padding: 5px 20px; 
+
+}
+
+
+
