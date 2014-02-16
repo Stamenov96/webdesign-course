@@ -1,0 +1,42 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body{
+	padding: 380px 25px;
+	background-image: url('http://returntothe80s.files.wordpress.com/2010/09/bon-jovi-greatest-hits.jpg');
+	background-repeat:no-repeat;
+}
+
+.leaders {
+    max-width: 40em;
+    padding: 0 px;
+    overflow: hidden;
+    list-style: none}
+.leaders li{
+	padding: 5px;
+}
+.leaders li:before {
+	color:white;
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . .";
+}
+.leaders span:first-child {
+    padding-right: 1px;
+    color:white;
+   background-color:black;
+}
+.leaders span + span {
+    float: right;
+    padding-left: 1px;
+    color:white;
+	background-color:black;
+}
+

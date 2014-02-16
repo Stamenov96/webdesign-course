@@ -1,0 +1,17 @@
+* {
+ margin: 0px auto;
+ padding: 0 auto;
+ background: blue;
+}
+
+.gallery img {
+ width: 200px;
+}
+.gallery li {
+ display: block; 
+ float: left;
+ margin: 10px;
+ }
+.gallery li:nth-child(4n+1) {
+clear: both; 
+}

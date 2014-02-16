@@ -1,0 +1,43 @@
+* {
+	margin: 0; 
+	padding: 0; 
+ }
+ 
+a {
+text-decoration: none;
+color: white;
+}
+
+nav {
+ display: block; 
+}
+
+nav.navigation, nav.navigation a {
+ background-color: blue; 
+ }
+nav.navigation a:hover {
+background-color: #0066FF; 
+}
+nav.navigation a {
+display: block;
+padding: 10px;
+white-space: nowrap;
+}
+nav.navigation> ul > li { 
+float: left; 
+}
+nav.navigation > ul li {
+ display: block;
+ position: relative;
+ }
+nav.navigation > ul li ul {
+display: none;
+position: absolute;
+}
+nav.navigation > ul li:hover > ul {
+ display: block; 
+}
+nav.navigation > ul li ul li ul {
+left: 100%;
+top: 0%; 
+}
