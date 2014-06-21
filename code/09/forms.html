@@ -1,0 +1,50 @@
+<html>
+	<head>
+			<title>Task 1</title>
+		<link rel="stylesheet" type="text/css" href="forms.css">
+	</head>
+	
+	<body>
+	
+	
+		<form>
+				<fieldset>
+					<legend>Basic fields</legend>
+					<input id="name" type="text" class="inputs" placeholder="Username">
+					<input type="email" class="inputs" placeholder="Email">
+					<input type="button" class="css_button" value="Sign in"/>
+				</fieldset>
+				<fieldset  class="fieldsets">
+					<legend>Info Fields</legend>
+					<div id="contact"> 
+						<div class="input_label user"> 
+							<label for="name"> First Name</label></div> 
+							<input name="name" type="text" id="name" class="name" size="30" value=""> 
+						</div> <br>
+					<div id="contact"> 
+						<div class="input_label user"> 
+						<label for="name"> Last Name</label></div> 
+						<input name="name" type="text" id="name" class="name" size="30" value=""> 
+					</div> 
+					<textarea rows="4" cols="20" placeholder="Biography"></textarea><br>
+					Website : <input type="url" name="website" placeholder="www.website.com"><br>
+					Twitter : <input type="url" name="twitter" placeholder="www.twitter.com/user"><br>
+					Facebook : <input type="url" name="facebook" placeholder="www.facebook.com/user"><br>
+					GITHUB : <input type="url" name="github" placeholder="www.github.com/user/repository"><br>
+				</fieldset>
+				<fieldset>
+					<legend>Box fields</legend>
+					<input type="checkbox" name="vehicle" value="under">I am under 18<br>
+					<input type="checkbox" name="vehicle" value="over">I am over 18<br>	
+					<input type="radio" name="sex" value="female">Female<br>
+					<input type="radio" name="sex" value="male">Male<br>
+					<select>
+						<option value="levski">Levski</option>
+						<option value="cska">Cska</option>
+						<option value="botevpld">Botev Plovdiv</option>
+						<option value="lokopld">Lokomotiv Plovdiv</option>
+					</select>
+				</fieldset>
+		</form>
+	</body>
+</html>
